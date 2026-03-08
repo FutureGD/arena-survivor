@@ -38,3 +38,38 @@ feat: arena tilemap floor and walls
 
 ### Next up
 - Day 4: adding player character and movement to the arena.
+
+---
+
+## Day 4 — Player Movement
+
+### What I did
+- Watched Brackeys 2D Movement tutorial
+- Created Player GameObject with Sprite Renderer (added a top-down blue man sprite)
+- Added Rigidbody2D to Player
+- Installed new Input System package from Package Manager
+- Wrote characterCtrl.cs script — WASD movement using Rigidbody2D.MovePosition
+- Tested player movement and wall collision
+
+### What I learned
+- Rigidbody2D.MovePosition works for movement but not 100% sure if it's
+  the best approach — need to look into this more
+- Gravity Scale set to 0 because the game is top-down, player shouldn't fall
+- Freezing Z rotation stops the player from spinning unnecessarily on collision
+- Continuous Collision Detection prevents clipping through walls
+- Movement logic goes in FixedUpdate (runs at fixed time intervals),
+  input reading goes in Update (catches input as fast as possible)
+- Input.GetAxisRaw returns -1, 0 or 1 with no smoothing — better for
+  responsive movement
+- Normalizing the input vector prevents diagonal movement being faster
+
+### Issues I ran into
+- Forgot to add BoxCollider2D before pushing to repo — wall collision
+  not working because of this, need to add it and push a fix commit
+
+### Commit
+feat: player WASD movement with Rigidbody2D
+
+### Next up
+- Fix: add BoxCollider2D to Player and verify wall collision works
+```
