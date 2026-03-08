@@ -72,4 +72,6 @@ feat: player WASD movement with Rigidbody2D
 
 ### Next up
 - Fix: add BoxCollider2D to Player and verify wall collision works
-```
+
+### Update 
+- Fix:  added BoxCollider2D to Player and verifyid wall collision works!
