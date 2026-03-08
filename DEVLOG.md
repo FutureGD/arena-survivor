@@ -13,3 +13,28 @@
 - **My Resolve** I've been deciding since 6th standard about my future, now the deciding is done. Starting today I am someone who doesn't wait to feel ready, every single day I'll open the editor, one problem, one commit, one devlog. I've already wasted a decade wanting to feel ready now the resolve is made. See myself tomorrow!
 
 ---
+
+## Day 3 — Scene + Tilemap Setup
+
+### What I did
+- Installed 2D Tilemap package from Package Manager
+- Created Floor tilemap — filled 20x20 grid with floor tile
+- Created Walls tilemap — drew walls around arena perimeter
+- Set up camera to frame the entire arena
+- Watched Unity Learn 2D Game Kit first section
+
+### What I learned
+- Tilemaps use a Grid parent with Tilemap children
+- PPU (Pixels Per Unit) must match sprite size or tiles won't fit the grid
+- Need to switch active tilemap in Tile Palette when painting different layers
+- Walls Tilemap needs a Tilemap Collider 2D for future collision
+
+### Issues I ran into
+- Floor sprite was not filling the tilemap box — fixed by matching
+  PPU to sprite pixel dimensions and setting Filter Mode to Point
+
+### Commit
+feat: arena tilemap floor and walls
+
+### Next up
+- Day 4: adding player character and movement to the arena.
