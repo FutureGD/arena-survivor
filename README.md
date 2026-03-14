@@ -137,12 +137,12 @@ git clone https://github.com/FutureGD/arena-survivor-client.git
 ## Repository Map
 | Repo | Contents | Status |
 |---|---|---|
-| [arena-survivor](github.com/FutureGD/arena-survivor) | This overview + DEVLOG + architecture docs | ✅ Active |
-| [arena-survivor-client](github.com/FutureGD/arena-survivor-client) | Unity 2D game client | ✅ Active |
-| [arena-survivor-ai-plugin](github.com/FutureGD/arena-survivor-ai-plugin) | C++ A* native plugin (CMake) | 🔄 Week 2 |
-| [arena-survivor-networking](github.com/FutureGD/arena-survivor-networking) | NGO + UGS networking code | 📅 Month 2 |
-| [arena-survivor-backend](github.com/FutureGD/arena-survivor-backend) | Firebase scripts + Cloud Functions | 📅 Month 3 |
-| [arena-survivor-dsa](github.com/FutureGD/arena-survivor-dsa) | Standalone A* + scaling benchmarks | 📅 Month 4 |
+| [arena-survivor](https://github.com/FutureGD/arena-survivor) | This overview + DEVLOG + architecture docs | ✅ Active |
+| [arena-survivor-client](https://github.com/FutureGD/arena-survivor-client) | Unity 2D game client | ✅ Active |
+| [arena-survivor-ai-plugin](https://github.com/FutureGD/arena-survivor-ai-plugin) | C++ A* native plugin (CMake) | 🔄 Week 2 |
+| [arena-survivor-networking](https://github.com/FutureGD/arena-survivor-networking) | NGO + UGS networking code | 📅 Month 2 |
+| [arena-survivor-backend](https://github.com/FutureGD/arena-survivor-backend) | Firebase scripts + Cloud Functions | 📅 Month 3 |
+| [arena-survivor-dsa](https://github.com/FutureGD/arena-survivor-dsa) | Standalone A* + scaling benchmarks | 📅 Month 4 |
 
 ---
 
